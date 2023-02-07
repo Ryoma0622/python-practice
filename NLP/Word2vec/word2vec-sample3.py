@@ -3,6 +3,7 @@
 # https://ohke.hateblo.jp/entry/2019/06/01/120000
 # https://zenn.dev/robes/articles/c251dd89a0e47f
 # good: https://blog.linkode.co.jp/entry/2020/10/07/130849
+# sudachi: https://github.com/WorksApplications/SudachiTra
 
 from gensim.models import word2vec
 import gensim
