@@ -2,7 +2,7 @@ from sudachipy import tokenizer
 from sudachipy import dictionary
 
 # トークナイザの作成
-config_path = "/Users/jg20022/src/ghq/github.com/Ryoma0622/python-practice/venv/lib/python3.9/site-packages/sudachipy/resources/sudachi.json"
+config_path = "/Users/jodoi/src/ghq/github.com/Ryoma0622/python-practice/venv/lib/python3.9/site-packages/sudachipy/resources/sudachi.json"
 tokenizer_obj = dictionary.Dictionary(config_path=config_path).create()
 
 text = "すもももももももものうち、東京特許許可局、りんごジュース"

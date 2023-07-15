@@ -9,6 +9,18 @@ def parse_text(text):
 def fuzzy_search(data, query):
     query_parsed = parse_text(query)
     result = []
+    for item in data:
+        item_parsed = parse_text(item)
+        similarity = fuzz.ratio(item_parsed, query_parsed)
+        print(similarity)
+        if similarity >= 50: # you can adjust the threshold value
+            result.append(item)
+    return result
+
+
+def fuzzy_search(data, query):
+    query_parsed = parse_text(query)
+    result = []
     # for item in data:
     #     item_parsed = parse_text(item)
     #     # print(item_parsed)
